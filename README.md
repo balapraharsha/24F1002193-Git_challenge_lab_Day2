@@ -19,22 +19,24 @@ The tasks demonstrate Git basics: commits, branching, pull requests, feature dev
 ### **2. File Creation & Initial Commit**
 - Created files:  
   - `main.py` – Handles program input/output  
-  - `interest.py` – Contains simple interest calculation function  
   - `README.md` – Project information and instructions  
 - Made the **first commit** to the `main` branch.   
 
 ---
 
 ### **3. Feature Branches & Pull Requests**
-- **Feature 1 – Input Validation (`feature-validation`)**  
+- **Feature 1 – Interest Module (`feature-interest`)**  
+  - Added `interest.py` containing the `simple_interest` function.  
+  - Created a branch, committed, pushed, raised PR, and merged into `main`.
+  
+- **Feature 2 – Input Validation (`feature-validation`)**  
   - Added input validation for principal, rate, and time to ensure positive numbers.  
   - Created a separate branch, committed changes, pushed to GitHub, and raised a Pull Request.  
   - Merged PR into `main`.  
 
-- **Feature 2 – Year-wise Total Amount Breakdown (`feature-breakdown`)**  
+- **Feature 3 – Year-wise Total Amount Breakdown (`feature-breakdown`)**  
   - Added a breakdown of total amount for each year.  
   - Created a branch, committed, pushed, raised PR, and merged into `main`.  
-
 
 ---
 
