@@ -1,0 +1,11 @@
+Project: Simple Interest Calculator
+
+Files:
+- interest.py : Contains function to calculate simple interest
+- main.py     : Menu/program to input values and display result
+- README.txt  : Project info
+
+Run Instructions:
+1. Run `python main.py`
+2. Enter Principal, Rate, and Time
+3. View Simple Interest and Total Amount
