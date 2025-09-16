@@ -1,10 +1,19 @@
-import interest
+import interest  
 
-print("Simple Interest Calculator")
+def get_positive_float(prompt):
+    while True:
+        try:
+            value = float(input(prompt))
+            if value <= 0:
+                raise ValueError
+            return value
+        except ValueError:
+            print("Please enter a valid positive number!")
 
-principal = float(input("Enter principal amount: "))
-rate = float(input("Enter annual interest rate (in %): "))
-time = float(input("Enter time in years: "))
+# Input with validation
+principal = get_positive_float("Enter principal amount: ")
+rate = get_positive_float("Enter annual interest rate (in %): ")
+time = get_positive_float("Enter time in years: ")
 
 si = interest.simple_interest(principal, rate, time)
 total_amount = principal + si
